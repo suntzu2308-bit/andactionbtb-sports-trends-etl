@@ -1,0 +1,11 @@
+# Never commit secrets or exported production data
+.env
+.env.*
+!.env.example
+*token*
+*credentials*
+*.key
+*.pem
+data/private/
+exports/
+.DS_Store
